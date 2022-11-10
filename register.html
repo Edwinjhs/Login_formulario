@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>REGISTRO</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./fontawesome-free-6.2.0-web/css/all.css">
+</head>
+<body>
+
+    <section class="formulario_registro">
+        <form action="">
+            <label>
+                <h2>Nombres</h2>
+                <input placeholder="nombres completos" type="text" required>
+            </label>
+            <label>
+                <h2>Apellidos</h2>
+                <input placeholder="apellidos completos" type="text" required>
+            </label>
+            <label>
+                <h2>Correo Electronico</h2>
+                <input placeholder="verificar el correo" type="email" required>
+            </label>
+            <label>
+                <h2>Cohorte a la que pertenece</h2>
+                <select name="cohorte" id="cohorte">
+                    <option value="">Selecciona tu cohorte</option>
+                    <option value="asd">Cohorte 7</option>
+                    <option value="asd">Cohorte 8</option>
+                    <option value="asd">Docente</option>
+                </select>
+            </label>
+            <label>
+                <h2>Fecha de nacimiento</h2>
+                <input placeholder="dia/mes/año" type="fndata">
+            </label>
+            <input class="boton_register" type="submit" id="boton-submit" value="ENVIAR">
+        </form>
+    </section>
+    <section class="back_section">
+        <a href="index.html"><button>Volver al menu principal</button></a>
+    </section>
+</body>
+</html>

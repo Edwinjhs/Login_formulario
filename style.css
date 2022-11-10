@@ -1,0 +1,88 @@
+*{
+    border: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 600px;
+    background: linear-gradient(90deg, rgba(37,122,33,1) 0%, rgba(30,153,161,0.5074229520909926) 50%, rgba(0,212,255,1) 100%); ;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    background: #FFFFFF;
+    text-align: center;
+    padding: 60px;
+    box-shadow: 0 5px 10px 10px rgb(71, 190, 140, 0.7);
+    border-radius: 10px;
+}
+form .title{
+    font-size: 35px;
+    font-weight: 800;
+    margin-bottom: 30px;
+}
+form label{
+    margin-bottom: 35px;
+}
+form label .fa-solid {
+    font-size: 20px;
+    color: rgb(36, 100, 52);
+    margin-right: 10px;
+}
+form label input{
+    background-color: rgba(153, 153, 153, 0.26);
+    outline: none;
+    border: none;
+    color: #252525;
+    border-bottom: solid 2px rgb(111, 110, 114);
+    font-size: 20px;
+}
+form label input::placeholder {
+    color: rgba(0, 0, 0, 0.479);
+}
+form link{
+    color:black;
+    margin: 15px;
+}
+form button{
+    color:white;
+    font-weight: 800;
+    border: none;
+    background: linear-gradient(90deg, rgba(37,122,33,1) 0%, rgba(30,153,161,0.5074229520909926) 50%, rgba(0,212,255,1) 100%);
+    padding: 10px 15px;
+    cursor: pointer;
+    font-size: 20px;
+    margin-top: 5px;
+}
+form button:hover{
+    background:linear-gradient(90deg, rgb(23, 77, 21) 0%, rgba(14, 74, 78, 0.507) 50%, rgb(0, 86, 104) 100%); ;
+}
+body section form label select{
+    background-color: rgb(146, 193, 224);
+    padding: 30px;
+    border: 1px solid black;
+}
+section form input.boton_register{
+    color:white;
+    font-weight: 800;
+    border: none;
+    background: linear-gradient(90deg, rgba(37,122,33,1) 0%, rgba(30,153,161,0.5074229520909926) 50%, rgba(0,212,255,1) 100%);
+    padding: 10px 15px;
+    cursor: pointer;
+    font-size: 20px;
+    margin-top: 5px;
+}
+section form input.boton_register:hover{
+    background:linear-gradient(90deg, rgb(23, 77, 21) 0%, rgba(14, 74, 78, 0.507) 50%, rgb(0, 86, 104) 100%);
+}
+section form label input::placeholder {
+    color: rgba(0, 0, 0, 0.479);
+}
+.back_section {
+    padding: 20px;
+    margin-left: 30px;
+}
